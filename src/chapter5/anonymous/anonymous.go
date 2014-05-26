@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-//<start id="anonymous">
+	//<start id="anonymous">
 	driver := "Gary Gopher"
 	vehicle := "Porsche Boxster S"
 	data := struct {
@@ -21,5 +21,5 @@ func main() {
 		panic(err)
 	}
 	fmt.Println(string(b))
-//<end id="anonymous">
+	//<end id="anonymous">
 }
